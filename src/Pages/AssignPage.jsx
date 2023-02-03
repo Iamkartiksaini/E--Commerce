@@ -3,12 +3,13 @@ import "./Assign.scss";
 import { Dropdown } from "primereact/dropdown";
 import { InputText } from "primereact/inputtext";
 import { FileUpload } from "primereact/fileupload";
+import NavBar from "./NavBar";
 
 function AssignPage() {
-  const [value, setValue] = useState(null);
-  const [value2, setValue2] = useState(null);
-  const [value3, setValue3] = useState(null);
-  const [value4, setValue4] = useState(null);
+  const [value, setValue] = useState(undefined);
+  const [value2, setValue2] = useState(undefined);
+  const [value3, setValue3] = useState(undefined);
+  const [value4, setValue4] = useState(undefined);
   const cities = [
     { name: "New York", code: "NY" },
     { name: "Rome", code: "RM" },
@@ -18,6 +19,8 @@ function AssignPage() {
 
   return (
     <div className="AssignPage">
+      <NavBar />
+
       <div className="input-section">
         <span className="p-float-label">
           <Dropdown
