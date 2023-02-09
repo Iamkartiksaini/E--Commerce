@@ -1,6 +1,6 @@
-# E-Commerce ====>
+# E-Commerce
 
-Used => React | React-Prime | Redux 
+---- Using ---- React | React-Prime | Redux 
 
 Zero Local Css Code  
 
