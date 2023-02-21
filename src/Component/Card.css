@@ -1,0 +1,45 @@
+/* Card */
+
+.shopping_card {
+  position: relative;
+}
+.shopping_card > .image {
+  background-color: #7ac751;
+  color: aliceblue;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.shopping_card > .image img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.shopping_card > .image .tag {
+  position: absolute;
+  top: 0px;
+  background: rgb(0, 174, 255);
+  padding: 0.1em 0.4rem;
+}
+.shopping_card > .image .functions {
+  position: absolute;
+  bottom: 0%;
+  right: 0px;
+  display: none;
+  z-index: 2;
+  padding: 10px;
+}
+
+.shopping_card > .image:hover .functions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.shopping_card > .image:hover::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(49, 49, 49, 0.493);
+  z-index: 1;
+}

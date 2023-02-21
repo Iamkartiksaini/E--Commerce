@@ -120,35 +120,35 @@ function Footer() {
         {/* <==== Second Column */}
         <div className="  flex flex-column gap-3">
           <p className="text-black-alpha-70 font-bold">Help</p>
-          <p>Privacy Policy</p>
-          <p>Shipping & Delivery</p>
-          <p>Refund Policy</p>
-          <p>Track Your Order</p>
+          <p className="hover:text-green-500">Privacy Policy</p>
+          <p className="hover:text-green-500">Shipping & Delivery</p>
+          <p className="hover:text-green-500">Refund Policy</p>
+          <p className="hover:text-green-500">Track Your Order</p>
         </div>
         {/* <==== Third Column */}
         <div className="  flex flex-column gap-3">
           <p className="text-black-alpha-70 font-bold">Store </p>
-          <p>Furniture</p>
-          <p>Tabble</p>
-          <p>Sofa</p>
-          <p>Other</p>
+          <p className="hover:text-green-500">Furniture</p>
+          <p className="hover:text-green-500  w-fit">Tabble</p>
+          <p className="hover:text-green-500">Sofa</p>
+          <p className="hover:text-green-500">Other</p>
         </div>
         {/* <==== fourth Column */}
 
         <div className="  flex flex-column gap-3">
           <p className="text-black-alpha-70 font-bold"> Supports </p>
-          <p> Feedbcak</p>
-          <p> Contact us</p>
-          <p> Download app</p>
-          <p> Terms conditins </p>
+          <p className="hover:text-green-500">Feedbcak</p>
+          <p className="hover:text-green-500">Contact us</p>
+          <p className="hover:text-green-500">Download app</p>
+          <p className="hover:text-green-500"></p>
         </div>
       </div>
       <div className="Company flex p-5 justify-content-around border-top-1 border-black-alpha-30 ">
         <p>© 09-feb-2023 - All rights reserved By Kartik.</p>
         <div className="flex justify-content-evenly  w-4">
-          <p>Privacy</p>
-          <p>Security</p>
-          <p>Terms</p>
+          <p className="hover:text-green-500">Privacy</p>
+          <p className="hover:text-green-500">Security</p>
+          <p className="hover:text-green-500">Terms</p>
         </div>
       </div>
     </div>
